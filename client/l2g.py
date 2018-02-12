@@ -37,11 +37,6 @@ CNF_DT_VARIANTS  = {
             'regexp': re.compile("(\w{3} \w{3} \d{2} \d{2}:\d{2}:\d{2}\.\d{6} \d{4})"),
             'dt_format': "%a %b %d %H:%M:%S.%f %Y",
             },
-    'c': {
-            'example': "/home/prod_aflcab_s/afl_cabinet/log/errors/2016-04-02/060610-SiebelXMLResponseException",
-            'regexp': re.compile("(\d{4}-\d{2}-\d{2}/\d{6})"),
-            'dt_format': "%Y-%m-%d/%H%M%S",
-            },
     }
 #--------------------------------------------------------------------------------------------------
 
